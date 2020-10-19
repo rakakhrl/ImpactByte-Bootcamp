@@ -1,0 +1,10 @@
+STORE "number1" with any value
+STORE "number2" with any value
+
+IF "number1" equals to "number2"
+    DISPLAY "number1 sama dengan number2"
+ELSE
+    IF "number1" > "number2"
+        DISPLAY "number1 nilai terbesar"
+    ELSE
+        DISPLAY "number2 nilai terbesar"

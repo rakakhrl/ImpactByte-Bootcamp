@@ -1,0 +1,7 @@
+STORE "hours" with any value
+STORE "secondsPerHour" with 3600
+STORE "result" without any value
+
+CALCULATE "hours" times "secondsPerHour"
+SET "result" with calculation result
+DISPLAY "result"

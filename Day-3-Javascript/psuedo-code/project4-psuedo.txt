@@ -1,0 +1,6 @@
+STORE "start" with any value
+STORE "end" with any value
+
+WHILE "start" is smaller and equals to "end"
+    ADD "start" by 1
+    DISPLAY "start"

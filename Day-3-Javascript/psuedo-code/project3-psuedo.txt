@@ -1,0 +1,13 @@
+STORE "passenger" with any value
+STORE "ticketPrice" with any value
+STORE "isOneWay" with true or false
+STORE "totalPrice" without any value
+
+CALCULATE "passenger" times "ticketPrice"
+SET "totalPrice" with calculation result
+
+IF "isOneWay" equals to true
+    DISPLAY "totalPrice"
+ELSE
+    CALCULATE "totalPrice" times 2
+    DISPLAY calculation result

@@ -1,0 +1,40 @@
+.external-css {
+  background-color: crimson;
+  color: gold;
+}
+
+/* CSS Chaining */
+/* 
+element.anotherElement {
+    style
+} 
+*/
+
+/* CSS Nesting */
+/* 
+parentElement childElement {
+    style
+}
+*/
+
+/* CSS Multiple Selector */
+/* 
+element, anotherElement {
+    style
+}
+*/
+
+.container {
+  height: 30vh;
+  width: 30vw;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  background-color: greenyellow;
+  height: 10vh;
+  width: 10vw;
+}
