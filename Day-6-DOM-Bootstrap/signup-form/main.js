@@ -18,7 +18,7 @@ function hideAlert() {
 }
 
 function register() {
-  if (inputUsername.length < 6 || inputPassword.length < 8) {
+  if (inputUsername.value.length < 6 || inputPassword.value.length < 8) {
     showAlert();
   } else {
     credential.push(inputUsername.value);
