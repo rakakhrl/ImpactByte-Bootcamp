@@ -1,8 +1,11 @@
-String.prototype.reverseString = () => {
-    let splitString = this.split();
-    let reverse = splitString.reverse();
-    
-    return reverse.join('')
-}
+String.prototype.reverseString = function () {
+  let reversedString = [];
 
-console.log('RAKA'.reverseString());
+  for (i = this.length - 1; i >= 0; i--) {
+    reversedString.push(this[i]);
+  }
+
+  return reversedString.join("");
+};
+
+console.log("RAKA".reverseString());
