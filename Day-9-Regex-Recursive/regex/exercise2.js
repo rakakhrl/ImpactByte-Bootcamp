@@ -1,5 +1,5 @@
 function checkPhoneNumber(phoneNumber) {
-  let r = /\d{10,12}/;
+  let r = /^\d{10,12}$/;
   const isValid = r.test(phoneNumber);
 
   if (isValid) {
