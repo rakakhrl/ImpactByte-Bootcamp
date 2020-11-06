@@ -1,5 +1,5 @@
 function checkName(name) {
-  const r = /[A-Z]/;
+  const r = /^[A-Z]/;
   const isUpper = r.test(name);
 
   if (isUpper) {
